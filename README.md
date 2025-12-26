@@ -24,16 +24,16 @@ Thực hiện các bước sau để thiết lập dự án trên môi trường
 
 ### 1. Clone the repository
 
-        ```bash
-            git clone 
-            cd wearlyStylesFeMobile
-        ```
+```bash
+    git clone 
+    cd wearlyStylesFeMobile
+
 
 ### 2. Install dependencies 
 
-        ```bash
-            npm install
-        ```
+```bash
+    npm install
+
 ### 3. Start Android Emulator
 
 #### Open Android Studio
@@ -42,9 +42,8 @@ Thực hiện các bước sau để thiết lập dự án trên môi trường
 
 ### 4. Run the application
 
-        ```bash
-            npm run android
-        ```
+```bash
+    npm run android
 
 ## 3. Project Structure
 
