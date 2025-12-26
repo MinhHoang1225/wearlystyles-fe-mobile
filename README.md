@@ -1,26 +1,27 @@
 # 📱 Wearly Styles — Mobile App
 
-**Wearly Styles** là ứng dụng di động mua sắm thời trang hiện đại được xây dựng trên nền tảng **React Native CLI**. Dự án tập trung vào kiến trúc sạch (clean architecture), khả năng mở rộng và tối ưu hóa quy trình làm việc nhóm.
+**Wearly Styles** 
+This is a modern fashion shopping mobile application built on the **React Native CLI** platform. The project focuses on clean architecture, scalability, and optimized team workflows..
 
 ---
 
 ## 1. Tech Stack
 
-Dự án sử dụng các công nghệ mới nhất để đảm bảo hiệu suất và trải nghiệm người dùng:
+The project utilizes the latest technologies to ensure performance and user experience:
 
 * **⚛️ React Native 0.83.1** — Mobile framework.
 * **⚛️ React 19** — Core UI library.
-* **🟦 TypeScript** — Static typing cho code an toàn hơn.
+* **🟦 TypeScript** — Static typing makes code safer.
 * **📱 React Native CLI** — Native development workflow.
 * **🎨 Tailwind (NativeWind)** — Utility-first styling.
 * **📦 Node.js** >= 20.
-* **🤖 Android Studio / Emulator** — Môi trường phát triển Android.
+* **🤖 Android Studio / Emulator** — Android development environment.
 
 ---
 
 ## 2. Getting Started
 
-Thực hiện các bước sau để thiết lập dự án trên môi trường local:
+Follow these steps to set up the project in your local environment:
 
 ### 1. Clone the repository
 
