@@ -17,7 +17,9 @@ import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { API_BASE_URL, APP_NAME } from '@env';
+import AppNavigator from './src/navigation/AppNavigator';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -42,10 +44,9 @@ function AppContent() {
           <Text style={styles.debugText}>API: {API_BASE_URL}</Text>
         </View>
       )}
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
+      <GestureHandlerRootView style={{ flex: 1 }}>
+        <AppNavigator />
+      </GestureHandlerRootView>
     </View>
   );
 }
